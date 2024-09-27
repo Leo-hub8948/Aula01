@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*garante que o preenchimento/padding 
+    seja incluido no cáculo da largura,
+    evitando que o conteúdo ultrapassae a tela
+    */
+}
+
+
+html {
+    width: 100%;
+    height: 100vh;
+}
+
+
+header {
+padding: min(5vh, 4rem); /*Ajustando o 
+paidding para ser mais flexível*/
+
+background-color: #f4065e;
+
+width: 100%;/*colocando a largura para 100% do espaço disnível*/
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+/*aqui começamos o posicionamento do Header*/
+position: sticky;/*Posicionamento do
+header  usando o stick, sendo um posinamento fixo,  porém distinto do Fixed*/
+top: 0; /*Espaçamento a superior zerado, fazendo com que o Header fique grudado ao top*/
+left: 0; /*Espaçamento a  esquerda zerado,  fazendo com que o Header Fique grupado á esquerda*/
+z-index: 999; /*Eixo de prufundidade
+(Eixo Cartesiano0*/
+
+box-shadow: 0 0.21rem 0.5rem #fff9d8;
+/*primeiro valor sombra na direita (0)
+segundo valor sombra Bottom (0.21rem)
+terceiro valor gradiantda sombra (0.5rem)*/
+
+
+
+}
+
+header i {
+    color: black;
+    font: 6em;
+}
+
+header button {
+    width: 13rem;
+    height: 1.5tem;
+    background-color: blue;
+    border-radius: 1rem;
+    padding: 1.3rem;
+    color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
