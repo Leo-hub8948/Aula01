@@ -45,17 +45,17 @@ terceiro valor gradiantda sombra (0.5rem)*/
 }
 
 header i {
-    color: #ae0c3e;
+    color: bisque;
     font-size: 6em;
 }
 
 header button {
     width: 13rem;
     height: 1.5em;
-    background-color: blue;
+    background-color: bisque;
     border-radius: 1rem;
     padding: 1.3rem;
-    color: beige;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,7 +65,7 @@ header button {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #2b0255;
+    background-color: black;
     width: 100%;
     padding: min(20vh, 6rem);
 }
@@ -73,7 +73,7 @@ header button {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #3ccefa;
+    background-color: white;
     width: 100%;
     padding: min(20vh, 6rem);
 }
@@ -82,7 +82,7 @@ header button {
 .div-01 p {
     font-size: 2em;
     margin: 1.2em;
-    color: antiquewhite;
+    color: black;
 }
 
 .div-02 img {
@@ -92,7 +92,7 @@ display: block; /*garantindo que imagem se comporte como um bloco*/
 }
 
 .section-03 {   
-    background-color: antiquewhite;  /* Alterei a cor para diferenciar as sections */
+    background-color: rgb(245, 230, 213);  /* Alterei a cor para diferenciar as sections */
     padding: min(20vh, 6rem); /* Ajustado para flexibilidade */
     display: flex;
     justify-content: center;
