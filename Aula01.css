@@ -65,7 +65,7 @@ header button {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: black;
+    background-color: white;
     width: 100%;
     padding: min(20vh, 6rem);
 }
@@ -104,6 +104,7 @@ display: block; /*garantindo que imagem se comporte como um bloco*/
 .div-01 p {
     font-size: 2em;
     margin: 1.2em;
+    color: black;
 }
 
 
